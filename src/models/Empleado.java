@@ -30,7 +30,7 @@ public class Empleado implements Comparable<Empleado> {
 
     @Override
     public int hashCode() {
-        return((Integer)id).hashCode() + name.hashCode();
+        return((Integer)id).hashCode() + name.hashCode();   
     }
 
     @Override

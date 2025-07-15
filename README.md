@@ -153,3 +153,53 @@ Para administrar un directorio telefónico sin claves duplicadas y ordenado por 
 
 ### Evidencias
 ![alt text](image.png)
+
+
+## Demostracion del terminal
+PS C:\Users\LAB_04\icc-estructura-u2-maps>  c:; cd 'c:\Users\LAB_04\icc-estructura-u2-maps'; & 'C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin\java.exe' '-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:54998' '@C:\Users\LAB_04\AppData\Local\Temp\cp_9boaodpvk26mdy73gy2od7civ.argfile' 'controllers.EmpleadoDAOHashMap' 
+----Practica Mapas----
+Nombre: Emilio Villalta
+Empleado agregado: ID: 1, Name: PEDRO, Position: DEV
+Empleado agregado: ID: 2, Name: Pedro, Position: DEV
+Empleado agregado: ID: 3, Name: Juan, Position: DEV
+Empleado agregado: ID: 4, Name: Maria, Position: DEV
+Empleado agregado: ID: 5, Name: jUAN, Position: DEV
+Listado de empleados (HashMap):
+ID: 1, Name: PEDRO, Position: DEV
+ID: 2, Name: Pedro, Position: DEV
+ID: 3, Name: Juan, Position: DEV
+ID: 4, Name: Maria, Position: DEV
+ID: 5, Name: jUAN, Position: DEV
+
+Eliminando empleado con ID 2...
+Empleado eliminado: ID: 2, Name: Pedro, Position: DEV
+
+Listado de empleados después de eliminación (HashMap):
+ID: 1, Name: PEDRO, Position: DEV
+ID: 3, Name: Juan, Position: DEV
+ID: 4, Name: Maria, Position: DEV
+ID: 5, Name: jUAN, Position: DEV
+Empleado agregado: ID: 1, Name: PEDRO, Position: DEV
+Empleado agregado: ID: 2, Name: Pedro, Position: DEV
+Empleado agregado: ID: 3, Name: Juan, Position: DEV
+Empleado agregado: ID: 4, Name: Maria, Position: DEV
+Empleado agregado: ID: 5, Name: jUAN, Position: DEV
+
+Listado de empleados (TreeMap):
+ID: 1, Name: PEDRO, Position: DEV
+ID: 2, Name: Pedro, Position: DEV
+ID: 3, Name: Juan, Position: DEV
+ID: 4, Name: Maria, Position: DEV
+ID: 5, Name: jUAN, Position: DEV
+
+Eliminando empleado con ID 2...
+Empleado eliminado: ID: 2, Name: Pedro, Position: DEV
+
+Listado de empleados después de eliminación (TreeMap):
+ID: 1, Name: PEDRO, Position: DEV
+ID: 3, Name: Juan, Position: DEV
+ID: 4, Name: Maria, Position: DEV
+ID: 5, Name: jUAN, Position: DEV
+
+### Evidencias
+![alt text](image.png)
